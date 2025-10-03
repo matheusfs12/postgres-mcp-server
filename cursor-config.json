@@ -1,0 +1,19 @@
+{
+  "mcpServers": {
+    "postgres-mcp-server": {
+      "command": "postgres-mcp-server",
+      "args": [],
+      "env": {
+        "POSTGRES_HOST": "127.0.0.1",
+        "POSTGRES_PORT": "5432",
+        "POSTGRES_DB": "your_database",
+        "POSTGRES_USER": "your_username",
+        "POSTGRES_PASSWORD": "your_password",
+        "POSTGRES_DEFAULT_SCHEMA": "public",
+        "POSTGRES_DEFAULT_CONTEXT": "Your database context",
+        "POSTGRES_MAX_ROWS": "100",
+        "POSTGRES_TIMEOUT": "30000"
+      }
+    }
+  }
+}
